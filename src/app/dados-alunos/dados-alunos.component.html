@@ -1,0 +1,21 @@
+<table>
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Curso</th>
+        <th>Rendimento Escolar (Média)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let aluno of dadosAlunos">
+        <td>{{ aluno.matricula }}</td>
+        <td>{{ aluno.nome }}</td>
+        <td>{{ aluno.idade }}</td>
+        <td>{{ aluno.curso }}</td>
+        <td>{{ calcularMedia(aluno.rendimentoEscolar) }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
