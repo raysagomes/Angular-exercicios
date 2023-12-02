@@ -1,5 +1,5 @@
 {
-  "aluno": [
+    "aluno": [
       {
         "matricula": 12345,
         "nome": "João Silva",
@@ -10,6 +10,106 @@
           "Front-end": 9.2,
           "Back-end": 7.8
         }
+      },
+      {
+        "matricula": 67890,
+        "nome": "Maria Oliveira",
+        "idade": 22,
+        "curso": "Ciência da Computação",
+        "rendimentoEscolar": {
+          "POO": 9.0,
+          "Front-end": 8.8,
+          "Back-end": 8.5
+        }
+      },
+      {
+        "matricula": 13579,
+        "nome": "Carlos Santos",
+        "idade": 21,
+        "curso": "Sistemas de Informação",
+        "rendimentoEscolar": {
+          "POO": 7.5,
+          "Front-end": 8.0,
+          "Back-end": 7.2
+        }
+      },
+      {
+        "matricula": 24680,
+        "nome": "Ana Lima",
+        "idade": 23,
+        "curso": "Engenharia Elétrica",
+        "rendimentoEscolar": {
+          "POO": 8.0,
+          "Front-end": 7.5,
+          "Back-end": 8.2
+        }
+      },
+      {
+        "matricula": 97531,
+        "nome": "Fernando Souza",
+        "idade": 24,
+        "curso": "Matemática Aplicada",
+        "rendimentoEscolar": {
+          "POO": 9.5,
+          "Front-end": 9.0,
+          "Back-end": 9.2
+        }
+      },
+      {
+        "matricula": 35724,
+        "nome": "Juliana Santos",
+        "idade": 21,
+        "curso": "Design Gráfico",
+        "rendimentoEscolar": {
+          "POO": 8.8,
+          "Front-end": 8.5,
+          "Back-end": 8.0
+        }
+      },
+      {
+        "matricula": 86420,
+        "nome": "Pedro Oliveira",
+        "idade": 22,
+        "curso": "Engenharia Mecânica",
+        "rendimentoEscolar": {
+          "POO": 7.0,
+          "Front-end": 6.5,
+          "Back-end": 7.8
+        }
+      },
+      {
+        "matricula": 11122,
+        "nome": "Mariana Lima",
+        "idade": 23,
+        "curso": "Biologia",
+        "rendimentoEscolar": {
+          "POO": 8.5,
+          "Front-end": 8.2,
+          "Back-end": 8.0
+        }
+      },
+      {
+        "matricula": 33344,
+        "nome": "Ricardo Souza",
+        "idade": 24,
+        "curso": "Economia",
+        "rendimentoEscolar": {
+          "POO": 7.8,
+          "Front-end": 7.5,
+          "Back-end": 7.0
+        }
+      },
+      {
+        "matricula": 55566,
+        "nome": "Camila Oliveira",
+        "idade": 21,
+        "curso": "Arquitetura",
+        "rendimentoEscolar": {
+          "POO": 8.2,
+          "Front-end": 8.0,
+          "Back-end": 7.5
+        }
       }
     ]
   }
+  

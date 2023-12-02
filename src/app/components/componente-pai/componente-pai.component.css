@@ -5,8 +5,6 @@ div {
     border-radius: 5px;
   }
   
-  button {
-    margin: 0 5px;
-    border-radius:  5px;
-    
+  h2 {
+    color: #333;
   }

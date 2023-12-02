@@ -1,0 +1,23 @@
+<div>
+    <h2> Exercício 08</h2>
+    <h2>Dados dos Alunos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Matrícula</th>
+          <th>Curso</th>
+          <th>Média Global</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let aluno of dados">
+          <td>{{ aluno.nome }}</td>
+          <td>{{ aluno.matricula }}</td>
+          <td>{{ aluno.curso }}</td>
+          <td>{{ calcularMedia(aluno.rendimentoEscolar) | number:'1.1-1' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

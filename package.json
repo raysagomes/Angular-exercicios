@@ -1,13 +1,13 @@
 {
-  "name": "2-av",
+  "name": "prova-matheus-garrido",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "start:json-server": "json-server --watch db.json --port 3001 --middlewares node_modules/cors/lib",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "start:json-server": "json-server --watch db.json --port 3001"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +19,7 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "cors": "^2.8.5",
     "json-server": "^0.17.4",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

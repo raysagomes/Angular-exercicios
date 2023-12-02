@@ -8,17 +8,17 @@ import { CommonModule } from '@angular/common';
   templateUrl: './contador-component.component.html',
   styleUrl: './contador-component.component.css'
 })
-
 export class ContadorComponentComponent {
-  title = '2AV'; 
-  contador = 0; 
-  
-  incrementCounter() {
-    this.contador++;
- }
+  valorAtual: number = 0;
 
- decrementCounter() {
-  if (this.contador > 0) {
-  this.contador--;}
- }
+  aumentar() {
+    this.valorAtual++;
+  }
+
+  diminuir() {
+    if (this.valorAtual > 0) {
+      this.valorAtual--;
+    }
+  }
 }
+

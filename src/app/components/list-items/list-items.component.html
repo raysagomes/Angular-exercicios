@@ -1,12 +1,21 @@
-
-<br>
-<br>
-
-<p>Lista de itens</p>
-
-<br>
-<ol>
-    <li *ngFor="let item of item; let i = index">{{ item }}</li>
-</ol>
-
-
+<div>
+  <h2> Exercício 02 e 03</h2>
+  <br> 
+    <h2>Lista de Tarefas</h2>
+  <br>
+    <input [(ngModel)]="newItemText" maxlength="100" placeholder="Adicione uma tarefa">
+  
+   
+    <button (click)="adicao()">Adição</button>
+  
+    
+    <ul class="list-unstyled">
+      <li *ngFor="let item of items" [class.completed]="item.completed">
+        {{ item.text }}
+        <button (click)="remocao(items.indexOf(item))">Delete 🗑️</button>
+        <button (click)="conclusao(items.indexOf(item))">Check ✅</button>
+      </li>
+    </ul>
+   
+   
+</div>

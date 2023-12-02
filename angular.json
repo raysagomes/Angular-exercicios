@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "2AV": {
+    "Prova-Matheus-Garrido": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/2-av",
+            "outputPath": "dist/prova-matheus-garrido",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "2AV:build:production"
+              "buildTarget": "Prova-Matheus-Garrido:build:production"
             },
             "development": {
-              "buildTarget": "2AV:build:development"
+              "buildTarget": "Prova-Matheus-Garrido:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "2AV:build"
+            "buildTarget": "Prova-Matheus-Garrido:build"
           }
         },
         "test": {

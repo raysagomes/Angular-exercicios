@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+div {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin: 0 5px;
+  border-radius:  10px;
+  
+}
+
+h2 {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  word-wrap: break-word;
+  margin-bottom: 8px;
+}
+
+
+li.completed {
+  background-color: yellow;
+}
+
+div {
+  margin-top: 16px;
+}
+
